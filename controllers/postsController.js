@@ -9,7 +9,7 @@ module.exports = {
                     html += `
                 <div>
                    <h1>${post.title}</h1>
-                   <img src="${post.image}" alt="${post.title}">
+                   <img width="500" src="${post.image}" alt="${post.title}">
                    <p>${post.content}</p>
                    <ul>
                 `;
